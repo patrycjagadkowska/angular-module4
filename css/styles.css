@@ -1,0 +1,23 @@
+body { 
+	background-color: #DAF7A6;
+	color: #631D57;
+}
+h1, h3 {
+	font-family: 'Bebas Neue', cursive;
+	text-align: center;
+	font-size: 1.3em;
+	background-color: #FFC300 ;
+}
+.catLink {
+	font-family: 'Ubuntu', sans-serif;
+	color: #C70039;
+}
+a.catLink:hover {
+	color: #631D57;
+	border: 1px #631D57 solid;
+	background-color: #FFC300 ;
+}
+.itemList {
+	font-family: 'Ubuntu', sans-serif;
+	color: #C70039;
+}

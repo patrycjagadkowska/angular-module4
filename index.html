@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html ng-app="MenuApp">
+<meta charset="utf-8">
+<head>
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+	<title>REST API</title>
+</head>
+<body>
+
+	<ui-view></ui-view>
+
+
+<!-- libraries -->
+<script src="js/angular.min.js"></script>
+<script src="js/angular-ui-router.min.js"></script>
+<!-- modules -->
+<script src="js/menuapp.module.js"></script>
+<script src="js/data.module.js"></script>
+<!-- routes -->
+<script src="js/routes.js"></script>
+<!-- menuapp artifacts -->
+<script src="js/categories.component.js"></script>
+<script src="js/categories.controller.js"></script>
+<script src="js/items.component.js"></script>
+<script src="js/items.controller.js"></script>
+<!-- data artifacts -->
+<script src="js/menudata.service.js"></script>
+
+</body>
+</html>
